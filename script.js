@@ -5,11 +5,14 @@ function firstWord(s) {
 	}
 
 	let temp=s.split(" ");
-
+	if(temp[0]===" "){
 	return temp[0];
+	}
+
+	return temp[1];
 }
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
+//const s = prompt("Enter String:");
 alert(firstWord(s));
