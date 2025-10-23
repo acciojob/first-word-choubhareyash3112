@@ -11,7 +11,7 @@ function firstWord(s) {
 
 	for(let i=0;i<temp.length;i++)
 	{
-		if(temp[i]!==" "){
+		if(temp[i]!==""){
 			return temp[i];
 		}
 	}
